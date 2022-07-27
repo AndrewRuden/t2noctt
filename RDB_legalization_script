@@ -1,0 +1,18 @@
+let inputText= prompt("Вставьте строку из Валериного Excel файла", "");
+let arr = inputText.split('\t');
+//Подрядчик на Р1
+document.querySelectorAll("input[tabindex='16502']")[0].value=arr[7];
+//Экспертное заключение Р1, №
+document.getElementsByName('p$body$ctl672')[0].innerHTML=arr[8];
+//Экспертное заключение Р1, дата
+document.querySelectorAll("input[tabindex='16701']")[0].value=arr[9];
+//Подрядчик на Р2
+document.querySelectorAll("input[tabindex='17702']")[0].value=arr[10];
+//Протокол измерений, №
+document.querySelectorAll("input[tabindex='17801']")[0].value=arr[11];
+//Протокол измерений, дата
+document.querySelectorAll("input[tabindex='17901']")[0].value=arr[12];
+//Экспертное заключение Р2, №
+document.querySelectorAll("[tabindex='18001']")[0].value=arr[13];
+//Экспертное заключение Р2, дата
+document.querySelectorAll("input[tabindex='18101']")[0].value=arr[14];
