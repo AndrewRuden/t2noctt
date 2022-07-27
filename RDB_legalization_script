@@ -3,7 +3,7 @@ let arr = inputText.split('\t');
 //Подрядчик на Р1
 document.querySelectorAll("input[tabindex='16502']")[0].value=arr[7];
 //Экспертное заключение Р1, №
-document.querySelectorAll("input[tabindex='16601']")[0].value=arr[8];
+document.querySelectorAll("[tabindex='16601']")[0].value=arr[8];
 //Экспертное заключение Р1, дата
 document.querySelectorAll("input[tabindex='16701']")[0].value=arr[9];
 //Подрядчик на Р2
