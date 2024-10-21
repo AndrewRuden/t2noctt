@@ -50,7 +50,7 @@ do{
 		continue;
 	} 
 	
-	if (button_Save_gen.getInnerHTML()=='Сохранить'){		
+	if (button_Save_gen.getInnerText=='Сохранить'){		
 		console.log("Button 'Save' with ID '%s' is initilized successfuly",ss);
 		button_Save_gen = ss;
 		break;
@@ -77,7 +77,7 @@ do{
 		continue;
 	} 
 	
-	if (button_OK_gen.getInnerHTML()=='ОК'){		
+	if (button_OK_gen.getInnerText=='ОК'){		
 		console.log("Button 'OK' with ID '%s' is initilized successfuly",ss);
 		button_OK_gen = ss;
 		break;
