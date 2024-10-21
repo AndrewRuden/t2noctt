@@ -35,7 +35,7 @@ while(true)
 //Initializing button 'Save'
 console.log("Initializing button 'Save'...");
 let button_Save_gen = '';
-let i_save = 20;
+let i_save = 30;
 do{
 	if (i_save >100){
 		console.log("Error initializing Save Button. Too many attempts riched.");
