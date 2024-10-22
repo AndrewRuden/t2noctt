@@ -164,8 +164,8 @@ while(true)
 console.log("Clicking on button 'Сохранить'");
 let x3 = frame2.document.getElementById('PageContainer_SaveButton').getBoundingClientRect().x+5;
 let y3 = frame2.document.getElementById('PageContainer_SaveButton').getBoundingClientRect().y+5;
-frame2.document.getElementById(button_Save_gen).dispatchEvent(new MouseEvent("mousedown", {view: window,bubbles: true,cancelable: true,clientX: x3,clientY: y3,button: 0}));
-frame2.document.getElementById(button_Save_gen).dispatchEvent(new MouseEvent("mouseup", {view: window,bubbles: true,cancelable: true,clientX: x3,clientY: y3,button: 0}));
+frame2.document.getElementById('PageContainer_SaveButton').dispatchEvent(new MouseEvent("mousedown", {view: window,bubbles: true,cancelable: true,clientX: x3,clientY: y3,button: 0}));
+frame2.document.getElementById('PageContainer_SaveButton').dispatchEvent(new MouseEvent("mouseup", {view: window,bubbles: true,cancelable: true,clientX: x3,clientY: y3,button: 0}));
 
 //Waiting for Saving Done
 console.log("Waiting for Saving Done");
@@ -217,8 +217,8 @@ while(true)
 console.log("clicking on button 'ОК'");
 let x6 = frame2.document.getElementById('PageContainer_OKButton').getBoundingClientRect().x+5;
 let y6 = frame2.document.getElementById('PageContainer_OKButton').getBoundingClientRect().y+5;
-frame2.document.getElementById(button_OK_gen).dispatchEvent(new MouseEvent("mousedown", {view: window,bubbles: true,cancelable: true,clientX: x6,clientY: y6,button: 0}));
-frame2.document.getElementById(button_OK_gen).dispatchEvent(new MouseEvent("mouseup", {view: window,bubbles: true,cancelable: true,clientX: x6,clientY: y6,button: 0}));
+frame2.document.getElementById('PageContainer_OKButton').dispatchEvent(new MouseEvent("mousedown", {view: window,bubbles: true,cancelable: true,clientX: x6,clientY: y6,button: 0}));
+frame2.document.getElementById('PageContainer_OKButton').dispatchEvent(new MouseEvent("mouseup", {view: window,bubbles: true,cancelable: true,clientX: x6,clientY: y6,button: 0}));
 
 
 //Wating for MAIN Form closed
