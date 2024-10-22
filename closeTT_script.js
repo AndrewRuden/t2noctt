@@ -34,7 +34,7 @@ while(true)
 
 //Initializing button 'Save'
 console.log("Initializing button 'Save'...");
-let button_Save_gen = '';
+/*let button_Save_gen = '';
 let i_save = 30;
 do{
 	if (i_save >100){
@@ -57,8 +57,11 @@ do{
 	}
 	i_save++;
 }
-while (true);
+while (true);*/
 
+let button_Save_gen_text = frame2.document.getElementById('PageContainer_SaveButton').querySelector('button').innerText;
+console.log("Button 'Save' with Caption '%s' is initilized successfuly", button_Save_gen_text);
+	
 //Initializing button 'OK'
 console.log("Initializing button 'OK'...");
 let button_OK_gen = '';
