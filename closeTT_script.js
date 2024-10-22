@@ -209,8 +209,6 @@ do {
 }
 while(true)
 
-
-
 //clicking on button "ОК"
 console.log("clicking on button 'ОК'");
 let x6 = frame2.document.getElementById('PageContainer_OKButton').getBoundingClientRect().x+5;
