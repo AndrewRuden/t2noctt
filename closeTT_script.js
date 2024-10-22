@@ -64,7 +64,7 @@ console.log("Button 'Save' with Caption '%s' is initilized successfuly", button_
 	
 //Initializing button 'OK'
 console.log("Initializing button 'OK'...");
-let button_OK_gen = '';
+/*let button_OK_gen = '';
 let i_ok = 10;
 do{
 	if (i_ok >100){
@@ -87,9 +87,10 @@ do{
 	}
 	i_ok++;
 }
-while (true);
-
-
+while (true);*/
+let button_OK_gen_text = frame2.document.getElementById('PageContainer_OKButton').querySelector('button').innerText;
+console.log("Button 'OK' with Caption '%s' is initilized successfuly", button_OK_gen_text);
+	
 //clicking on tab "Оборудование"
 console.log("Clicking on tab 'Оборудование'");
 let x1 = frame2.document.getElementById(frame2.PageContainer_DataTabPanel.getItem(1).tabHeader.id).getBoundingClientRect().x + 5;
