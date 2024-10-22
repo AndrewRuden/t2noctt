@@ -9,7 +9,6 @@ let rrr = iframe1.document.getElementById('PageContainer_IncidentsModulePage_Gri
 let bbb = iframe1.document.elementFromPoint(rrr.getBoundingClientRect().x+10, rrr.getBoundingClientRect().y+31);
 bbb.dispatchEvent(new MouseEvent("dblclick", {view: window,bubbles: true,cancelable: true,clientX: rrr.getBoundingClientRect().x+10,clientY: rrr.getBoundingClientRect().y+31,button: 0}));
 
-
 //Waiting for TT Form opened...
 let frames2 = iframe1.document.getElementsByTagName("iframe");
 let frame2 = iframe1.document.getElementById(frames2[0].id).contentWindow;
@@ -27,7 +26,6 @@ do{
 	if (tt7>20) break;
 }
 while(true)
-
 
 //*************************************************************************************** another Frame *******************************************************
 //Main on TT Form Thread
